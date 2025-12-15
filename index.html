@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sruthi R — Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Sruthi R</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm Sruthi — a Computer Science Graduate</h1>
+          <p>Passionate about web development, UI/UX and building projects that solve real problems. Looking for internships / entry-level roles in frontend or full-stack development.</p>
+          <div class="hero-cta">
+            <a href="projects.html" class="btn">View Projects</a>
+            
+          </div>
+          <ul class="quick-info">
+            <li><strong>Location:</strong> Kochi, India</li>
+            <li><strong>Email:</strong> <a href="mailto:sruthirajesh1806@gmail.com">sruthirajesh1806@gmail.com</a></li>
+            <li><strong>Phone:</strong> +91 98765 43210</li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+          <img src="image/image.jpeg" alt="Profile photo of Sruthi">
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <h2>Highlights</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React basics, responsive design.</p>
+        </article>
+        <article class="card">
+          <h3>Projects</h3>
+          <p>Multiple academic & personal projects — web apps, mini ML demos, automation scripts.</p>
+        </article>
+        <article class="card">
+          <h3>Teamwork</h3>
+          <p>Worked on group projects, code reviews, and Git-based collaboration.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sruthi R — Student Portfolio • Built with HTML & CSS</p>
+      <nav class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

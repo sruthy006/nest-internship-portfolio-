@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Sruthi R</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Sruthi R</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Projects</h1>
+      <p>Below are some projects demonstrating practical skills.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio built with HTML & CSS. Includes multiple pages and contact form.</p>
+          <p><strong>Tech:</strong> HTML, CSS</p>
+          
+        </article>
+
+        <article class="project-card">
+          <h3>Sustainable travel app</h3>
+          <p>A sustainable travel app that helps users choose eco-friendly transport, accommodations, and activities to minimize carbon footprint while exploring responsibly.</p>
+          <p><strong>Tech:</strong> JavaScript, LocalStorage</p>
+         
+        </article>
+
+        <article class="project-card">
+          <h3>Flight Booking System</h3>
+          <p>The Flight Booking System is a foundational application designed to manage flight availability and passenger reservations.</p>
+          <p><strong>Tech:</strong> Object-Oriented Programming (OOP), JS,Data structure</p>
+         
+        </article>
+
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year3"></span> Sruthi R</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year3').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

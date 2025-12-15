@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Sruthi R</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Sruthi R</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about-me">
+      <div class="about-grid">
+        <div>
+          <h1>About Me</h1>
+          <p>I recently graduated in Computer Science from Amal Jyothi College Of Engineering . I enjoy designing and building user-friendly web applications and learning new technologies.</p>
+
+          <h2>Education</h2>
+          <ul class="simple-list">
+            <li><strong>BTech in Computer Science</strong> — Amal Jyothi College Of Engineering (2024 - 2028)</li>
+            <li><strong>Higher Secondary</strong> — SMV HSS Poonjar  (2023)</li>
+          </ul>
+
+          <h2>Skills</h2>
+          <div class="skills">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript (ES6+)</div>
+            <div class="skill">React (basic)</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Basic Python</div>
+          </div>
+        </div>
+
+        <aside class="side-card">
+          <img src="image/image.jpeg" alt="Profile photo">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:sruthirajesh1806@gmail.com">sruthirajesh1806@gmail.com</a></p>
+          <p>Phone: +91 98765 43210</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year2"></span> Sruthi R</p>
+    </div>
+  </footer>
+<script>
+  document.getElementById('year2').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

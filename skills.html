@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills & Experience — Sruthi R</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Sruthi R</a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="skills.html" class="nav-link active">Skills & Experience</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Skills -->
+  <section>
+    <h1>Technical Skills</h1>
+    <p>These are the tools, languages and technologies I’m comfortable with:</p>
+
+    <div class="skills">
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">JavaScript (ES6+)</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js (Basic)</div>
+      <div class="skill">Python</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">Figma (UI/UX Basic)</div>
+      <div class="skill">Database (MySQL)</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section style="margin-top:50px;">
+    <h1>Experience</h1>
+    <p>Projects, internships and activities that helped me grow.</p>
+
+    <div class="timeline">
+
+      <div class="experience-item">
+        <h3>Web Developer Intern</h3>
+        <span class="exp-date">June 2024 - Aug 2024</span>
+        <p>Worked on developing responsive websites using HTML, CSS, JavaScript. Improved accessibility, optimized website performance, and collaborated using GitHub.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>College Project — Event Website</h3>
+        <span class="exp-date">2023</span>
+        <p>Designed and developed a static website for a college tech fest with events schedule, registration and sponsor section.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Mini Project — Task Management App</h3>
+        <span class="exp-date">2023</span>
+        <p>Built a simple task tracker using JavaScript. Included add, edit, delete, and local storage persistence.</p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Department Volunteer</h3>
+        <span class="exp-date">2022 - 2024</span>
+        <p>Assisted organizing technical workshops and coding competitions for juniors and peers.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Soft Skills -->
+  <section style="margin-top:50px;">
+    <h1>Soft Skills</h1>
+    <ul class="simple-list">
+      <li>Teamwork and collaboration</li>
+      <li>Problem solving and critical thinking</li>
+      <li>Time management</li>
+      <li>Leadership and mentoring juniors</li>
+      <li>Communication skills</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Sruthi R</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
